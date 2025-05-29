@@ -82,7 +82,7 @@ sudo apt-get install python3-pip ffmpeg git -y
 #### Clone the Repository
 
 ```bash
-git clone https://github.com/NoxxOP/ShrutiMusicBot
+git clone https://github.com/naynay11122211/MMS
 cd ShrutiMusicBot
 ```
 
