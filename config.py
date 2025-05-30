@@ -18,8 +18,8 @@ API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 OWNER_ID = int(os.getenv("OWNER_ID", None))
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "sta2002")
-API_BASE_URL = os.getenv("API_BASE_URL", "http://deadlinetech.site")
-API_KEY = os.getenv("API_KEY")
+API_BASE_URL = getenv("API_BASE_URL", "http://deadlinetech.site")
+API_KEY = getenv("API_KEY")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
